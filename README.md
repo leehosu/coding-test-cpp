@@ -35,6 +35,10 @@
 
 - ##### [퀵정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/quickSort.md)
 
+- ##### [병합](https://github.com/leehosu/coding-test-cpp/blob/master/sort/mergeSort.md)
+
+- ##### [sort library](https://github.com/leehosu/coding-test-cpp/blob/master/sort/sortLibrary.md)
+
 ### 탐색
 
 - ##### [DFS와 BFS](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/PriorityQueue.md)

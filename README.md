@@ -35,9 +35,13 @@
 
 - ##### [퀵정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/quickSort.md)
 
-- ##### [병합](https://github.com/leehosu/coding-test-cpp/blob/master/sort/mergeSort.md)
+- ##### [병합 정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/mergeSort.md)
 
 - ##### [sort library](https://github.com/leehosu/coding-test-cpp/blob/master/sort/sortLibrary.md)
+
+- ##### [힙 정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/heapSort.md)
+
+- ##### [계수 정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/countingSort.md)
 
 ### 탐색
 

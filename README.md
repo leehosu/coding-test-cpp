@@ -25,7 +25,7 @@
 
 ---
 
-### 정렬
+### 정렬 (Sort)
 
 - ##### [선택정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/selectSort.md)
 
@@ -43,6 +43,12 @@
 
 - ##### [계수 정렬](https://github.com/leehosu/coding-test-cpp/blob/master/sort/countingSort.md)
 
-### 탐색
+### 탐색 (Search)
 
-- ##### [DFS와 BFS](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/PriorityQueue.md)
+- ##### [너비 우선 탐색(BFS)](https://github.com/leehosu/coding-test-cpp/blob/master/search/BFS.md)
+
+- ##### [깊이 우선 탐색(DFS)](https://github.com/leehosu/coding-test-cpp/blob/master/search/DFS.md)
+
+### 탐욕적 기법 (Greedy)
+
+- ##### [Greedy 알고리즘](https://github.com/leehosu/coding-test-cpp/blob/master/greedy/greedy.md)

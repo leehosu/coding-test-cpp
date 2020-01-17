@@ -1,31 +1,32 @@
 #include<iostream>
-
 using namespace std;
-
-int digit(int a, int b){
-	return a % 10*b;
-}
-
+bool array[10000];
 
 int kaprekar(int num){
 	
-	int len = num;
-	int count = 0;
-	int sum = 0 ;
-	do {
-		num = int(num/10);
-		count++;
-	}while(num > 0);
+	int sum = num;
 	
-	sum = num + digit(num,count);
-	
+	while(1){
+		if(num==0) break;
+		sum += num % 10;
+		num = num/10;
+	}
 	return sum;
 }
 
+
 int main(){
-	
-	cout << kaprekar(100) << "\n";
+	for(int i = 0 ; i <= 10000 ; i++){
+		int idx = kaprekar(i);
 		
+		if(idx <= 10000){
+			array[idx] = true;
+		}
+	}
+	
+	for(int i = 1 ; i <= 10000 ; i++){
+		if(!array[i]) cout << i << "\n";
+	}
 	
 	return 0;
 }

@@ -15,21 +15,20 @@ int main(){
 	
 	for(int i = 0 ; i < num ; i++){	
 		cin >> array_1[i];
-		if(array_1[i] <=1 || array_1[i]>=1000) return 0;
+		if(array_1[i] <1 || array_1[i]>1000) return 0;
 		
-		int array_2[num][array_1[i]];
+		int array_2[array_1[i]];
 
 		for( int j = 0 ; j < array_1[i] ; j++){	
-			cin >> array_2[i][j];
+			cin >> array_2[j];
+			if(array_2[j] < 0 || array_2[j] >100) return 0;
+			sum += array_2[j];
+		}
 			
-			if(array_2[i][j]<0 || array_2[i][j]>100) return 0;
-			
-			sum += array_2[i][j];
-		}	
 		avg = (double) sum / array_1[i];
 		
 		for(int j=0 ; j < array_1[i] ; j++){
-			if(array_2[i][j] > avg){
+			if(array_2[j] > avg){
 				count ++;
 			}
 		}
@@ -41,7 +40,8 @@ int main(){
 	}	
 	
 	for(int i = 0 ; i <num ; i++){
-		cout.precision(5);
+		cout.precision(3);
+		cout<<fixed;
 		cout << final[i] <<"%" <<"\n";
 	}
 	return 0;

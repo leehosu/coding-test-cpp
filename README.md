@@ -18,7 +18,7 @@
 
 ### 자료 구조
 
-- ##### [동적 배열](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/DataStructer.md)
+- ##### [동적 배열](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/DynamicArray.md)
 - ##### [Set과 Multiset](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/SetAndMultiset.md)
 - ##### [Map](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/Map.md)
 - ##### [우선 순위 큐](https://github.com/leehosu/coding-test-cpp/blob/master/ch5/PriorityQueue.md)
@@ -52,3 +52,9 @@
 ### 탐욕적 기법 (Greedy)
 
 - ##### [Greedy 알고리즘](https://github.com/leehosu/coding-test-cpp/blob/master/greedy/greedy.md)
+
+### 등차 수열
+
+- ##### [등차 수열](https://github.com/leehosu/coding-test-cpp/blob/master/sequence/even_order_sequece.md)
+
+- ##### [피보나치 수열](https://github.com/leehosu/coding-test-cpp/blob/master/sequence/Fibonacci_sequence.md)

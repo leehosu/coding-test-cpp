@@ -45,6 +45,10 @@
 
 ### 탐색 (Search)
 
+- ##### [이진 탐색](https://github.com/leehosu/coding-test-cpp/blob/master/search/BinarySearch.md)
+
+- ##### [lower_bound & upper_bound](https://github.com/leehosu/coding-test-cpp/blob/master/search/LowerUpper.md)
+
 - ##### [너비 우선 탐색(BFS)](https://github.com/leehosu/coding-test-cpp/blob/master/search/BFS.md)
 
 - ##### [깊이 우선 탐색(DFS)](https://github.com/leehosu/coding-test-cpp/blob/master/search/DFS.md)

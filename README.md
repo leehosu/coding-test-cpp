@@ -66,3 +66,13 @@
 ### 하노이 탑(Hanoi top)
 
 - ##### [하노이 탑](https://github.com/leehosu/coding-test-cpp/blob/master/hanoi/hanoi.md)
+
+---
+
+## JavaScript
+
+### 정렬
+
+- ##### [k번째 수](https://github.com/leehosu/coding-test-cpp/blob/master/js/sort/indexOfK.md)
+
+- ##### [가장 큰 수](https://github.com/leehosu/coding-test-cpp/blob/master/js/sort/maxNum.md)

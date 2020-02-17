@@ -1,22 +1,24 @@
 #include<iostream>
 using namespace std;
 
-void answer(int num){
-	cout << num;
-	answer(num--);
-	
-	if(num ==0) return 0;
+void func(int num, int count){
+	if(count == 0) return;
+	else{
+		cout << count<<"\n";
+		count--;
+		func(num, count);
+	}
 }
 
 int main(){
 	cin.tie(NULL); 
 	ios_base::sync_with_stdio(false);
 	
-	int num;
+	int num,count;
 	cin >> num;
 	
-	answer(num);
+	count = num;
 	
-	
+	func(num,count);
 	return 0;
 }

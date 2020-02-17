@@ -12,7 +12,7 @@ int main(){
 	int len_a = strlen(a),sum = 0 ;
 	
 	for(int i=0; i < len_a ; i++){
-		sum = +a[i];
+		sum += a[i];
 	}
 	
 	
